@@ -1,14 +1,15 @@
 # Tarka Homebrew Tap
 
-Draft Homebrew tap for the `tarka` CLI.
+Homebrew tap for the `tarka` CLI.
 
-Until the native CLI release exists, prefer:
+The supported install path is currently the curl installer:
 
 ```bash
-curl -fsSL https://install.tarkahq.com/cli | bash
+curl -fsSL https://raw.githubusercontent.com/TarkaHQ/tarkahq-cli/main/install.sh | bash
 ```
 
-Once release artifacts are published:
+The Homebrew formula is published for validation, but treat it as experimental
+until Python dependency resources are vendored:
 
 ```bash
 brew tap TarkaHQ/tap
