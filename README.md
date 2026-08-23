@@ -1,17 +1,16 @@
 # Tarka Homebrew Tap
 
-Homebrew tap for the `tarka` CLI.
+**Archived and unsupported.** This tap is retained as historical validation
+work and must not be used for new installations. Its formula is pinned to CLI
+`v0.1.1` and has no automated release or installation checks.
 
-The supported install path is currently the curl installer:
+Use the supported curl installer from
+[`TarkaHQ/tarkahq-cli`](https://github.com/TarkaHQ/tarkahq-cli):
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/TarkaHQ/tarkahq-cli/main/install.sh | bash
 ```
 
-The Homebrew formula is published for validation, but treat it as experimental
-until Python dependency resources are vendored:
-
-```bash
-brew tap TarkaHQ/tap
-brew install tarka
-```
+Restore this repository only when Homebrew is an explicitly supported channel
+with vendored Python dependency resources, automated formula updates, and a
+clean-machine installation smoke test.
